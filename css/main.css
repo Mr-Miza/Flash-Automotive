@@ -4,7 +4,10 @@ body {
     padding: 0;
     background:  #071c21;
 }
+
 .logos{
+    width: 70px;
+    height: 70px;
     width: 70px;
     height: 70px;
     border-radius: 50%;   
@@ -23,7 +26,7 @@ h2{
 nav{
     background-color: #06181ea2;
     text-align: center;
-    padding: 7px;
+
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -68,6 +71,83 @@ a{
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+#h-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main-container #h-txt p {
+    color: #f2f3f3a0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgb(255, 240, 105) 0px 5px 15px;
+}
+.prev-btn, .next-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.prev-btn, .next-btn {
+    flex-shrink: 0;
+}
+/* -----------------------------------------------------------*/
+
+.why-container{
+    width: 100%;
+    height: 700px;
+    background-color: aqua;
+    background-image:url("https://images.unsplash.com/photo-1511994477422-b69e44bd4ea9?q=80&w=1979&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.el{
+    display: inline-block;
+    width: 25%;
+    height: fit-content;
+    margin: 20px;
+    margin-top: 7%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(70, 85, 88, 0.555);
+    position: relative;
+}
+.why-container .el p {
+    color: rgb(141, 164, 157);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.why-container .el h2{
+    color: #a3b2b9;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ol{
+    display: inline-block;
+    width: 25%;
+    height: fit-content;
+    margin: 20px;
+    margin-top: 7%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(70, 85, 88, 0.555);
+    position: absolute;
+    right: 15px;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -76,12 +156,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-.sub-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    background-color: #a64646;
 }
