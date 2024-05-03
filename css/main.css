@@ -4,10 +4,11 @@
     padding: 0;
     background:  #071c21;
 }
+.body::-webkit-scrollbar{
+    display: none;
+}
 
 .logos{
-    width: 70px;
-    height: 70px;
     width: 70px;
     height: 70px;
     border-radius: 50%;   
@@ -17,10 +18,11 @@
     display: inline-flex;
     align-items: center;
 }
-#h2{
-    font-style: italic; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.logo #h2{
+    font-family:'Tit', 'Arial Narrow', Arial, sans-serif;
     color: #c0c0c0;
+    font-size: 200%;
+    font-weight: 800;
 }
 
 .nav{
@@ -64,7 +66,6 @@ ul {
 .main-container{
     width: 100%;
     height: 800px;
-    background-color: aqua;
     margin: 0;
     margin-bottom: 10px;    
     background-image: url("https://4kwallpapers.com/images/wallpapers/rimac-nevera-3840x2160-12750.jpg");
@@ -72,35 +73,39 @@ ul {
     background-repeat: no-repeat;
 } 
 .main-container #h-txt p {
-    color: #f2f3f3c8;
-    font-size: 70px;
+    color: #f2f3f3e6;
+    font-size: 68px;
     font-weight: bold;
-    font-family: "Brush Script MT", 'Brush Script Std', serif;
+    font-family: "Tit", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
     margin: 2%;
     margin-top: 0;
-    font-style: italic;
     font-weight: bold;
 }
 #sub-title {
-    color: #c0e1e1a0;
-    font-size: 35px;
+    color: #c0e1e1d1;
+    font-size: 34px;
     font-weight: bold;
-    font-family: "Brush Script MT", 'Brush Script Std', serif;
+    font-family: "Montsurrat", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
     margin: 2%;
     margin-top: 2%;
-    font-style: italic;
     font-weight: bold;   
 }
-.prev-btn, .next-btn {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.car-type{
     position: relative;
+    top: 55% ;
+    left: 5%;
+    width: fit-content;
+
+}
+.car-type p {
+    color: #093f1be6;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: "Quick", 'Brush Script Std', sans-serif;
+    text-shadow: rgb(2, 107, 60) 0px 5px 15px;
+    font-weight: bold;   
 }
 .statistics{
     width: 33%;
@@ -110,7 +115,7 @@ ul {
     justify-content: space-between;
     margin-top: 10px;
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 60%;
     border-radius: 50px;
 }
@@ -124,20 +129,18 @@ ul {
     color: #e3f9f9;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Brush Script MT", 'Brush Script Std', serif;
+    font-family: "Quick", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
     font-style: italic;
     font-weight: bold;
 }
 .main-container .statistics .stat h2{
     color: #ffffff;
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
-    font-family: "Brush Script MT", 'Brush Script Std', serif;
+    font-family: "Montsurrat", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
-    font-style: italic;
     font-weight: bold;
-
 }
 /* -----------------------------------------------------------*/
 
@@ -161,19 +164,20 @@ ul {
     position: relative;
 }
 .why-container .el p {
-    color: rgb(141, 164, 157);
-    font-size: 28px;
+    color: rgba(136, 217, 191, 0.886);
+    margin-top: 3%;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Quick', 'Arial Narrow', Arial, sans-serif;
 
 }
 .why-container .el h2{
-    color: #a3b2b9;
+    color: #c6d6df;
     font-size: 28px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Tit', 'Arial Narrow', Arial, sans-serif;
 }
 .ol{
     display: inline-block;
@@ -187,16 +191,38 @@ ul {
     text-align: end;
 }
 .ol p {
-    color: #cfd6d5;
+    color: #e0e3e2;
     font-size: 300%;
     font-weight: bold;
-    font-family: "Brush Script MT", 'Brush Script Std', serif;
+    font-family: "Montsurrat", 'Brush Script Std', sans-serif;
     text-shadow: rgb(0, 255, 255) 0px 5px 15px;
     font-style: italic;
     font-weight: bold;    
 }
 
 /* -----------------------------------------------------------*/
+.carousel-item{
+    width: 75%;
+    height: 75%;
+    transform: translate(17%);
+    /* Set the width and height as needed */
+    padding: 50px;
+}
+
+.description {
+    height: 75px;
+    background-color: rgba(184, 178, 171, 0.653);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+.description .numbers p , .description .numbers h3{
+    font-size: 100%;
+    align-self: center;margin-top: 15px;
+}
 
 /* -----------------------------------------------------------*/
 
@@ -209,3 +235,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@font-face {
+    font-family: 'Tit';
+    src: url('../Fonts/Titillium_Web/TitilliumWeb-Bold.ttf');
+
+    font-family: "Montsurrat";
+    src: url("../Fonts/SpeedRacing/SpeedRacing-Negative.ttf");
+
+    font-family: 'Quick';
+    src: url('../Fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
