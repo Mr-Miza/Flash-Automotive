@@ -8,7 +8,7 @@
     display: none;
 }
 
-.logos{
+.logos{ 
     width: 70px;
     height: 70px;
     border-radius: 50%;   
@@ -147,7 +147,6 @@ ul {
 .why-container{
     width: 100%;
     height: 800px;
-    background-color: aqua;
     background-image:url("https://images.unsplash.com/photo-1511994477422-b69e44bd4ea9?q=80&w=1979&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
     background-size: 100% 800px;
     background-repeat: no-repeat;
@@ -226,6 +225,299 @@ ul {
 
 /* -----------------------------------------------------------*/
 
+/****  RECENLTU ADDED DIV START *****/
+.recently-addeed-div{
+    margin-bottom: 30px;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.header-section h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section .product-row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.product-row article aside{
+    padding-bottom: 7px;
+}
+
+header img{
+    height: 150px;
+    width: 300px;
+}
+
+
+article aside{
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(187, 191, 189);
+    padding-left: 10px;
+    padding-right: 15px;
+    box-shadow:
+        inset -0.5em -1em 1.5em rgba(255, 96, 64, 0.3),
+        0.1em 0.3em 1em rgba(199, 204, 255, 0.701);
+}
+
+aside .car-name{
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+aside .car-type{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+aside ol{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+/**** RECENLTY ADDDED DIV END  *****/
+
+
+/**** Stats div START****/
+
+.stats{
+    background-color: rgb(0, 51, 204);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.stats div{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 15%;
+}
+
+.stats p{
+    margin: 0px;
+    padding: 45px 15%;  
+    font-size: 20px; 
+}
+
+
+.stats section h6{
+    margin: 0px;
+}
+
+.stats section h1{
+    margin: 0px;
+}
+
+/**** Stats div END****/
+
+
+
+
+/** Footer div START*/
+.last-div{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+/**Contact div input form START*/
+.contact-div{
+    background-image: url(../assets/car_photo.jpg);
+    background-repeat: no-repeat;
+    width: 65%;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-div {
+    background-color: rgb(5, 31, 176, 0.6);
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: none;
+    border-bottom: white;
+}
+
+.form-div section{
+    margin-bottom: 30px;
+}
+.form-div h3{
+    color: white;
+    margin: 0px;
+    margin-bottom: 2.5px;
+}
+
+.form-div input[type="text"],
+.form-div input[type="email"],
+.form-div textarea {
+    padding:5px;
+    background-color:   transparent;
+    border: none;
+    border-bottom: 1.5px solid white;
+    color:aliceblue;
+}
+
+.form-div ::placeholder{
+    color:azure;
+}
+/**Contact div input form END*/
+
+/**INFO div input form START*/
+.info-div{
+    background-color: gold;
+    width: 35%;
+}
+.map-div{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+
+.map-div iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.media-div{
+    background-color: rgb(9, 49, 112);
+    width: 100%;
+    height: 50%;
+}
+
+.media-div .ul1{
+   margin: 0px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 8%;
+   padding-top: 2%;
+   list-style: none;
+}
+
+.media-div .li1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.icons-footer1{
+    height: 40px;
+    width: 40px;
+}
+
+.media-div p {
+    padding-left: 20px;
+    margin: 0;
+    color: white;
+}
+
+.media-div .ul2{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+
+.icons-footer2{
+    height: 30px;
+    width: 30px;
+}
+/**Contact div input form END*/
+
+/**Footer div END*/
+
+/****  RECENLTU ADDED DIV START *****/
+.recently-addeed-div{
+    margin-bottom: 30px;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.header-section h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.product-row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.product-row article aside{
+    padding-bottom: 7px;
+}
+
+header img{
+    height: 150px;
+    width: 300px;
+}
+
+
+article aside{
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(187, 191, 189);
+    padding-left: 10px;
+    padding-right: 15px;
+    box-shadow:
+        inset -0.5em -1em 1.5em rgba(42, 170, 157, 0.336),
+        0.1em 0.3em 1em rgba(212, 215, 255, 0.904);
+}
+
+aside .car-name{
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+aside .car-type{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+aside ol{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+}
 footer {
     background-color: #333;
     color: white;
@@ -235,6 +527,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
 @font-face {
     font-family: 'Tit';
     src: url('../Fonts/Titillium_Web/TitilliumWeb-Bold.ttf');
@@ -244,5 +538,27 @@ footer {
 
     font-family: 'Quick';
     src: url('../Fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+/* -------------------------------------------------------------------------------- */ 
+/* ------------- RESPONSITIVITY ------------- */ 
+
+
+/* CSS for tablet devices */
+@media (max-width: 768px) {
+
+    footer {
+        padding: 5px 0;
+    }
+}
+
+
+/* CSS for mobile devices */
+@media (max-width: 480px) {
+
+    
+    footer {
+        padding: 2px 0;
+    }
 }
 
