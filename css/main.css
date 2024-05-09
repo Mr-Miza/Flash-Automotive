@@ -42,19 +42,20 @@
     border-radius: 20%;
     padding:12px;
 }
-.auth {
+.auth ul {
     min-height: 10px;
     display: inline-flex;
     justify-content: space-between;
     margin-right:10px;
 } 
-ul {
+.main-ops {
     list-style-type: none;
     display: inline-flex;
     justify-content: space-between;
     width: fit-content;
     align-items: center;
 }
+
 
 .Link{
     color: rgb(221, 240, 223);
@@ -225,6 +226,8 @@ ul {
 
 /* -----------------------------------------------------------*/
 
+
+
 /****  RECENLTU ADDED DIV START *****/
 .recently-addeed-div{
     margin-bottom: 30px;
@@ -327,20 +330,16 @@ aside ol{
 
 /**** Stats div END****/
 
-
-
-
 /** Footer div START*/
-.last-div{
+.last-div {
     background-color: aqua;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: fit-content;
 }
-
 /**Contact div input form START*/
 .contact-div{
-    background-image: url(../assets/car_photo.jpg);
+    background-image: url(../photo/car_photo.jpg);
     background-repeat: no-repeat;
     width: 65%;
     background-color: #cccccc;
@@ -351,9 +350,7 @@ aside ol{
 
 .form-div {
     background-color: rgb(5, 31, 176, 0.6);
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 30px 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
