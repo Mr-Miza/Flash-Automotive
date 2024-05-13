@@ -1,19 +1,22 @@
+
+*{
+    border: 1px solid red;
+}
+
 .body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background:  #071c21;
 }
-
 .body::-webkit-scrollbar{
     display: none;
 }
-
 .logos{ 
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;   
-    margin-right: 20px;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    margin-right: 1vw;
 }
 .logo{
     display: inline-flex;
@@ -22,7 +25,7 @@
 .logo #h2{
     font-family:'Tit', 'Arial Narrow', Arial, sans-serif;
     color: #c0c0c0;
-    font-size: 200%;
+    font-size: 3vw;
     font-weight: 800;
 }
 
@@ -33,16 +36,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-
 }
-.li{
-    margin-right:40px ;
+.li{ 
+    margin-right: 2vw;
     height: fit-content;
-    width: 40%;
+    width: 7vw;
     background-color: #094052;
     border-radius: 20%;
-    padding:12px;
+    padding: 1.5vw;
+    font-size: 1vw;
+    font-weight: 700;
 }
+.auth {
+    align-items: center;
+    display: flex;
+}
+
 .auth ul {
     min-height: 10px;
     display: inline-flex;
@@ -57,7 +66,6 @@
     align-items: center;
 }
 
-
 .Link{
     color: rgb(221, 240, 223);
     text-decoration: none;
@@ -67,16 +75,16 @@
 
 .main-container{
     width: 100%;
-    height: 800px;
+    height: fit-content;
     margin: 0;
     margin-bottom: 10px;    
     background-image: url("https://4kwallpapers.com/images/wallpapers/rimac-nevera-3840x2160-12750.jpg");
-    background-size: 100% 800px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 } 
 .main-container #h-txt p {
     color: #f2f3f3e6;
-    font-size: 68px;
+    font-size: 5vw;
     font-weight: bold;
     font-family: "Tit", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
@@ -86,7 +94,7 @@
 }
 #sub-title {
     color: #c0e1e1d1;
-    font-size: 34px;
+    font-size: 2vw;
     font-weight: bold;
     font-family: "Montsurrat", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
@@ -94,43 +102,39 @@
     margin-top: 2%;
     font-weight: bold;   
 }
-.car-type{
+.car_type{
     position: relative;
-    top: 55% ;
-    left: 5%;
+    top: 25vw;
+    left: 2vw;
     width: fit-content;
-
+    margin-bottom: 20vw;
 }
-.car-type p {
-    color: #093f1be6;
-    font-size: 400%;
+.car_type p {
+    color: #06480e;
+    font-size: 2.8vw;
     font-weight: bold;
     font-family: "Quick", 'Brush Script Std', sans-serif;
     text-shadow: rgb(2, 107, 60) 0px 5px 15px;
-    font-weight: bold;   
 }
 .statistics{
-    width: 33%;
-    height: 13%;
+    width: 36vw;
+    height: 6vw;
     background-color: rgba(14, 67, 56, 0.571);
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    bottom: 2vw;
     position: relative;
-    top: 40%;
-    left: 60%;
+    left: 60vw;
     border-radius: 50px;
 }
 .stat{
     width: 33%;
-    margin-top: 10px;
     position: relative;
-    margin-left: 30px;
+    margin-left: 3vw;
 }
 .main-container .statistics .stat p {
     color: #e3f9f9;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 1.2vw;
     font-family: "Quick", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
     font-style: italic;
@@ -138,8 +142,7 @@
 }
 .main-container .statistics .stat h2{
     color: #ffffff;
-    font-size: 27px;
-    font-weight: bold;
+    font-size: 1.5vw;
     font-family: "Montsurrat", 'Brush Script Std', sans-serif;
     text-shadow: rgb(255, 240, 105) 0px 5px 15px;
     font-weight: bold;
@@ -148,34 +151,34 @@
 
 .why-container{
     width: 100%;
-    height: 800px;
+    height: fit-content;
+    padding-bottom: 10%;
     background-image:url("https://images.unsplash.com/photo-1511994477422-b69e44bd4ea9?q=80&w=1979&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
-    background-size: 100% 800px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .el{
     display: inline-block;
     width: 25%;
     height: fit-content;
-    margin: 20px;
+    margin: 2%;
     margin-top: 7%;
-    padding: 10px;
+    padding: 0.5%;
     border-radius: 20px;
     background-color: rgba(70, 85, 88, 0.555);
-    position: relative;
 }
 .why-container .el p {
     color: rgba(136, 217, 191, 0.886);
-    margin-top: 3%;
-    font-size: 25px;
+    margin-top: 1vw;
+    font-size: 1.5vw;
     font-weight: bold;
     text-align: center;
     font-family: 'Quick', 'Arial Narrow', Arial, sans-serif;
 
 }
 .why-container .el h2{
-    color: #c6d6df;
-    font-size: 28px;
+    color: hsl(202, 28%, 83%);
+    font-size: 2.5vw;
     font-weight: bold;
     text-align: center;
     font-family: 'Tit', 'Arial Narrow', Arial, sans-serif;
@@ -184,16 +187,16 @@
     display: inline-block;
     height: fit-content;
     margin-top: 7%;
-    padding: 10px;
+    padding: 0.5%;
     border-radius: 20px;
     position: absolute;
     width: 55%;
-    right: 15px;
+    right: 2%;
     text-align: end;
 }
 .ol p {
     color: #e0e3e2;
-    font-size: 300%;
+    font-size: 3.2vw;
     font-weight: bold;
     font-family: "Montsurrat", 'Brush Script Std', sans-serif;
     text-shadow: rgb(0, 255, 255) 0px 5px 15px;
@@ -211,7 +214,7 @@
 }
 
 .description {
-    height: 75px;
+    height: 5vw;
     background-color: rgba(184, 178, 171, 0.653);
     display:flex;
     align-items: center;
@@ -221,8 +224,10 @@
     padding: 2%;
 }
 .description .numbers p , .description .numbers h3{
-    font-size: 100%;
-    align-self: center;margin-top: 15px;
+    font-size: 1vw;
+    align-self: center;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
 /* -----------------------------------------------------------*/
@@ -249,9 +254,11 @@
 
 section .product-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 5%;
     margin-left: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .product-row article aside{
@@ -541,22 +548,29 @@ footer {
 /* -------------------------------------------------------------------------------- */ 
 /* ------------- RESPONSITIVITY ------------- */ 
 
-
-/* CSS for tablet devices */
-@media (max-width: 768px) {
-
-    footer {
-        padding: 5px 0;
-    }
+    /* CSS for all devices smaller than 1024px */
+    @media (max-width: 767px) {
+        
+.media-div .li1 img{
+    display: none;
 }
-
-
-/* CSS for mobile devices */
-@media (max-width: 480px) {
-
+.media-div .li1 {
+    font-size: 3vw;
+    padding: 0;
+    margin: 2vw 0 1.5vw 0;
     
-    footer {
-        padding: 2px 0;
-    }
+}
+.media-div .ul1 {
+    padding: 0;
+}
+.media-div p {
+    padding: 1vw;
+}
+.media-div .ul2 {
+    padding: 0;
+}
+.form-div section h3 , .form-div h1 {
+    font-size: 7.5vw;
 }
 
+    }
