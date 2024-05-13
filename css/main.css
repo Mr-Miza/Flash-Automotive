@@ -1,8 +1,4 @@
 
-*{
-    border: 1px solid red;
-}
-
 .body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -225,9 +221,9 @@
 }
 .description .numbers p , .description .numbers h3{
     font-size: 1vw;
-    align-self: center;
-    margin-top: 15px;
+    margin-top: 1vw;
     font-weight: bold;
+    margin-bottom: 1vw;
 }
 
 /* -----------------------------------------------------------*/
@@ -555,10 +551,8 @@ footer {
     display: none;
 }
 .media-div .li1 {
-    font-size: 3vw;
-    padding: 0;
-    margin: 2vw 0 1.5vw 0;
-    
+    font-size: 2.5vw;
+    margin: 0.5vw 0 1vw 0;
 }
 .media-div .ul1 {
     padding: 0;
@@ -569,8 +563,31 @@ footer {
 .media-div .ul2 {
     padding: 0;
 }
-.form-div section h3 , .form-div h1 {
-    font-size: 7.5vw;
+.carousel-item{
+    width: 95%;
+    height: 95%;
+    transform: translate(2.6%); /* Set the width and height as needed */
+    padding: 50px;
 }
-
+.contact-div {
+    width: 100%;
+}
+.last-div{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: column;
+}
+.info-div{
+    background-color: gold;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row
+}
+.map-div{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}   
     }
