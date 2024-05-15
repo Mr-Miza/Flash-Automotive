@@ -31,3 +31,21 @@ const observer = new IntersectionObserver(entries => {
     }
 });
 observer.observe(statsSection);
+
+
+
+function fadeAnimation() {
+    const stats = document.querySelector('.stats');
+    let opacity = 0;
+
+    const fadeIn = setInterval(() => {
+        opacity += 0.005;
+        stats.style.opacity = opacity;
+
+        if (opacity >= 1) {
+            clearInterval(fadeIn);
+        }
+    }, 10);
+}
+
+fadeAnimation();
